@@ -1,3 +1,4 @@
+--en este trebajo nos piden crear una base de datos de una tienda, y la gracia es aprender a programar bases de datos con codigo
 /*putnto1*/
 /*Creamos la base de datos*/
 create database Ventas

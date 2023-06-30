@@ -1,3 +1,5 @@
+-- en esta actividad nos piden crear una base de datos para una biblioteca
+
 create database Actividad2
 
 use Actividad2
@@ -46,7 +48,7 @@ insert into Libro(Titulo, id_editorial, area)
 values('Juancho Paisa', 1,'')
 
 insert into Autor(Nombre, Nacionalidad)
-values('Jaime Calle', 'Española')
+values('Jaime Calle', 'EspaÃ±ola')
 
 insert into Editorial(Nombre)
 values('Matarin')

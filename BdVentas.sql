@@ -1,3 +1,5 @@
+--creamos la base de datos para una factura
+
 /*putnto1*/
 /*Creamos la base de datos*/
 create database Actividad1

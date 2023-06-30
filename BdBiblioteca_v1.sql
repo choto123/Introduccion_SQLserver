@@ -1,3 +1,5 @@
+--esta es la primera parte de la base de datos, aqui solo creamos la base de datos y las tablas
+
 --Creamos una base de datos
 create database Biblioteca
 
@@ -57,7 +59,7 @@ insert into Autor(Nombre, Nacionalidad)values
 ('esteban','peru'),
 ('emiliano','brazil'),
 ('matias','portugal'),
-('david','españa'),
+('david','espaÃ±a'),
 ('oscar','rusia'),
 ('estiven','colombiana'),
 ('sofia','americana'),
@@ -81,13 +83,13 @@ insert into Lector(DNI,Direccion,Carrera,Edad,Telefono,Email)values
 ('12984','calle 18n 81-92','ingenieria',18 ,'3826763','esteban.orti@gmail.com'),
 ('51245','carrera 78a 81-92','arquitectura',16 ,'728381','juan.sanchez@gmail.com'),
 ('523215','calle 98ss 81-92','gastronomia',11 ,'28189','andres.toro@gmail.com'),
-('531566','calle 28b 81-92','diseño',19 ,'827891','jaime.alvarez@gmail.com'),
+('531566','calle 28b 81-92','diseÃ±o',19 ,'827891','jaime.alvarez@gmail.com'),
 ('5352','diagonal 38aa 81-92','ingenieria',28 ,'8927389','andrea.salama@gmail.com'),
 ('6433','calle 48ab 81-92','arquitectura',38 ,'1232184','paola.mcqeen@gmail.com'),
 ('8973245','calle 58s 81-92','arquitectura',22 ,'826741','sergio.cordoba@gmail.com'),
-('857938','calle 65b 81-92','diseño',41 ,'786214','tomas.ramirez@gmail.com'),
+('857938','calle 65b 81-92','diseÃ±o',41 ,'786214','tomas.ramirez@gmail.com'),
 ('837458','calle 73i 81-92','ingenieria',24 ,'87427198','stiven.tascon@gmail.com'),
-('87532','calle 78o 81-92','diseño',15 ,'894261','jose.restrepo@gmail.com')
+('87532','calle 78o 81-92','diseÃ±o',15 ,'894261','jose.restrepo@gmail.com')
 
 --libro
 insert into Libros(Titulo_libro,Editorial,Area)values
@@ -96,10 +98,10 @@ insert into Libros(Titulo_libro,Editorial,Area)values
 ('vladimir','Crear Ediciones','informativo'),
 ('alistar','Crear juiwnui','educativo'),
 ('poppy','Editorial juan','narrativo'),
-('mañas ru','Editorial san','guerra'),
+('maÃ±as ru','Editorial san','guerra'),
 ('el rey leon','Ediciones upa','obra teatral'),
 ('el principito','Ediciones ino','relatos'),
-('niños calle','EdiMend','fantasia'),
+('niÃ±os calle','EdiMend','fantasia'),
 ('frijolito','Edifo','historia')
 
 --lbroautor
